@@ -10,7 +10,7 @@ This project uses the following technologies and hardware ecosystem:
 
 * **Voice Control:** Google Assistant / Google Home
 * **Development Platform:** Arduino IDE
-* **Microcontroller:** ESP32 (or ESP8266)
+* **Microcontroller:** ESP32 (or you can use ESP8266 instead)
 * **Middleware:** IFTTT (If This Then That)
 * **IoT Cloud:** Adafruit IO / Blynk (configurable)
 * **Connectivity:** Wi-Fi
@@ -20,7 +20,7 @@ This project uses the following technologies and hardware ecosystem:
 ## ⚙️ The Architecture
 
 ### How it Works
-Because Google Assistant runs in the cloud, it cannot communicate directly with the ESP32 board on your local network. We use a "middleman" approach to bridge the voice command to the hardware.
+Because Google Assistant runs in the cloud, it cannot communicate directly with the ESP32 board on your local network. 
 
 ### The Flow
 Here is the step-by-step process of how the command travels from your voice to the physical lock:
@@ -39,11 +39,11 @@ Here is the step-by-step process of how the command travels from your voice to t
 | Component | Description |
 | :--- | :--- |
 | **ESP32** | The main controller handling Wi-Fi and logic. |
-| **Servo Motor** | (e.g., MG996R or SG90) Used to physically turn the latch. |
-| **Solenoid Lock** | (Alternative) An electronic lock mechanism. |
+| **Servo Motor** | (SG92 or SG92R) Used to physically turn the latch. |
 | **5V Relay** | (If using a Solenoid) To switch the high current for the lock. |
 | **Power Supply** | 5V USB or External Battery for the ESP32/Motor. |
 | **Jumper Wires** | For connections. |
+| **Custom Lever Arm** | To create a folding mechanism. |
 
 ---
 
