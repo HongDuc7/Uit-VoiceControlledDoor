@@ -19,10 +19,10 @@ This project uses the following technologies and hardware ecosystem:
 
 ## ⚙️ The Architecture
 
-### How it Works
+### 🤷‍♂️How it Works
 Because Google Assistant runs in the cloud, it cannot communicate directly with the ESP32 board on your local network. 
 
-### The Flow
+### 🐞The Flow
 Here is the step-by-step process of how the command travels from your voice to the physical lock:
 
 **Trigger:** You say, *"Hey Google, Open the Door."*
