@@ -2,6 +2,9 @@
 
 An IoT project that allows you to unlock your door using voice commands via Google Assistant. This system integrates cloud services with an ESP32 microcontroller to control a servo motor or solenoid lock remotely.
 
+> 🎓 Course Project – *Embedded System Design (CE224)*
+> 📍 University of Information Technology – VNU-HCM
+
 ---
 
 ## 🛠️ Frameworks & Technologies
