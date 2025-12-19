@@ -4,7 +4,7 @@ An IoT project that allows you to unlock your door using voice commands via Goog
 
 > 🎓 Course Project – *Embedded System Design (CE224)*
 >
-> 📍 University of Information Technology – VNU-HCM
+> 📍 University of Information and Technology – VNU-HCM
 
 ---
 
